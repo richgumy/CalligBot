@@ -1,0 +1,7 @@
+function waypoints = extract_waypoints(filename)
+% Workspace struct must be called 'richie_cursive'... for now
+   load(filename);
+   zeros(size(richie_cursive))
+   for i = 1 : length(richie_cursive)
+       waypoints
+end
